@@ -14,11 +14,11 @@ pod 'iOSDFULibrary'
 end
 ```
 - Install dependencies
-
+```
 pod install
-
+```
 - Open the newly created `.xcworkspace` and begin working on your project.
-- If Xcode asks to migrate code to Swift 5.1, choose **Later**. (The codebase is Swift 5.1 already)
+- If Xcode asks to migrate code to Swift 5.5, choose **Later**. (The codebase is Swift 5.5 already)
 - Click on the `Pods` project, then go to the `Build Settings`
 - Click on the `iOSDFULibrary` target, then set the `Use Legacy Swift version` setting to `No`
 - Repeat the same for the `ZIPFoundation` target.
