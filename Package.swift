@@ -18,7 +18,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/weichsel/ZIPFoundation", exact: "0.9.20"),
-    .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
+    .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.5.0"),
   ],
   targets: [
     .target(
