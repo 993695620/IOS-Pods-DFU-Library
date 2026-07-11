@@ -2,7 +2,7 @@
 .DS_Store
 
 # Xcode
-build/
+.build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -22,10 +22,8 @@ DerivedData
 # Bundler
 .bundle
 
-# Jazzy Docs
-docs/
-
 #SPM
+.swiftpm
 Package.resolved
 
 Carthage

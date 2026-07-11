@@ -1,0 +1,5 @@
+use_frameworks!
+target 'DFU Test Performer' do
+  platform :ios, '12.0'
+  pod 'NordicDFU', :path => '../'
+end

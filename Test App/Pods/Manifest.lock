@@ -1,0 +1,23 @@
+PODS:
+  - NordicDFU (4.16.0):
+    - ZIPFoundation (= 0.9.19)
+  - ZIPFoundation (0.9.19)
+
+DEPENDENCIES:
+  - NordicDFU (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  NordicDFU:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NordicDFU: 116a4ec458945889f8e0e71759e03b23c39c3482
+  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
+
+PODFILE CHECKSUM: 9a7e01b8ffa6bf429152c8dacc8e138552ed18aa
+
+COCOAPODS: 1.16.2
